@@ -1,0 +1,150 @@
+/*Survivor CSS file*/
+
+div#wrapper {width: 728px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px; }
+
+
+/*font details*/
+
+@font-face {font-family: 'survivant.regular';
+	src: url(survivant.regular.ttf);
+	font-weight: normal;
+	font-style: normal; }
+
+body { font-family: verdana, arial, sans-serif; 
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF; 
+	background: #0D0D0D; }
+
+a {color: #FFF12E; 
+	font-weight: bold;
+	text-decoration: none; }
+
+a:visited {color: #3D4ACC; }
+a:hover, a:focus, a:active {background-color: #fff5e8;
+				color: #800080;}
+
+/*colours*/
+
+
+background {color: #0D0D0D; }
+
+/*headers*/
+
+header h1, h2, h3, h4, h5, h6 { font-family: 'survivant.regular', verdana, sans-serif; 
+	height: 20px;
+	margin-bottom: 20px; }
+
+header { height: 150px;
+	 margin-top: 5px;
+	 margin-bottom: 0px; 
+	 background: url(images/homehead.jpg) no-repeat;
+	 background-size: 728px; }
+
+header h1, header p {text-indent: -99999999999999px; }
+
+
+h2 { text-align: center; 
+	padding-top: 10px }
+
+
+
+/*styling buttons*/
+.buttons { padding: 10px; }
+
+/*styling nav bar */
+
+nav ul { list-style-type: none;
+	margin: auto;
+	padding: 0; 
+	overflow: hidden;
+	background-color: #6e6e6e;
+	display: flex;
+	justify-content: center; }
+
+.nav li { float: left; }
+
+.nav li a { display: block;
+	    color: white;
+	    text-align: center; 
+	    padding: 14px 16px; }
+
+.nav li a:hover { background-color: #D48911 }
+
+
+
+/*center images*/
+
+.center {display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px; }
+
+/*tables*/
+
+table {  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: none; } 
+
+.points { border: 1px solid white; }
+
+th, td {padding: 5px; }
+
+table, th, td { border: 1px solid white; }
+
+.name { color: white;
+	background-color: #979695;
+	text-align: left; }
+
+caption { font-family: 'survivant.regular';  
+	font-weight: bold;
+	font-size: 20px; 
+	margin-top: px; }
+
+/*styling table footnote*/
+.tfoot { text-align: center; }
+
+
+/*text formatting*/
+.whisper { margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	margin-bottom: 1px; }
+
+
+
+
+/*footer*/
+
+
+footer { clear:both;
+	padding: 10px; 
+	font-size: 75%; 
+	height: 1%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
