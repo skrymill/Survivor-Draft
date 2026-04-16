@@ -9,7 +9,7 @@ div#wrapper {width: 728px;
 
 /*font details*/
 
-@font-face {font-family: 'survivant.regular';
+@font-face {font-family: 'survivant.regular'; /*font from DaFont.com, "survivant" */
 	src: url(survivant.regular.ttf);
 	font-weight: normal;
 	font-style: normal; }
@@ -20,19 +20,20 @@ body { font-family: verdana, arial, sans-serif;
 	margin: 0;
 	padding: 0;
 	color: #FFFFFF; 
-	background: black url(images/torch2.jpg);
+	background: black url(images/torch2.jpg); /*image Copyright Dominic Alves 2007, CC BY 2.0*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: left bottom; }
 
+/*styling hyperlinks*/
 
-a {color: #FFF12E; 
+a {color: #F3BE68; 
 	font-weight: bold;
 	text-decoration: none; }
 
-a:visited {color: #3D4ACC; }
-a:hover, a:focus, a:active {background-color: #fff5e8;
-				color: #800080;}
+a:visited {color: #F3BE68; }
+a:hover, a:focus, a:active {background-color: white;
+				color: black;}
 
 
 /*background*/
@@ -50,15 +51,16 @@ header h1, h2, h3, h4, h5, h6 { font-family: 'survivant.regular', verdana, sans-
 header { height: 150px;
 	 margin-top: 5px;
 	 margin-bottom: 0px; 
-	 background: url(images/homehead.jpg) no-repeat;
+	 background: url(images/homehead.jpg) no-repeat; 
 	 background-size: 728px; }
+/*"Off the shores of Shangri-La Fiji Resort & Spa" image by Tourism Fiji is licensed under CC BY 2.0. */
+	 
 
 header h1, header p {text-indent: -99999999999999px; }
 
 h1 {text-indent: -99999999999999px; }
 
-h2 { text-align: center; 
-	padding-top: 0 px; }
+h2 { text-align: center;  }
 
 
 
@@ -133,8 +135,7 @@ th, td {padding: 5px; }
 
 caption { font-family: 'survivant.regular';  
 	font-weight: bold;
-	font-size: 20px; 
-	margin-top: px; }
+	font-size: 20px;  }
 
 /*styling table footnote*/
 .tfoot { text-align: center; }
@@ -148,7 +149,7 @@ caption { font-family: 'survivant.regular';
 
 /*rules text formatting*/
 
-.rules article {background: rgba(38, 38, 38, 0.5); }
+article {background: rgba(38, 38, 38, 0.5); }
 
 /*footer*/
 
@@ -171,7 +172,8 @@ details {border: 1px solid grey;
 
 summary { font-weight: bold;
 	margin: 1px 1px 0;
-	padding: 1px; }
+	padding: 1px;
+	font-size: 18px; }
 
 details[open] { padding: 1px; }
 
